@@ -7,6 +7,7 @@ TagManager:
   - Block
   - Finish block
   - Red block
+  - Blue block
   layers:
   - Default
   - TransparentFX

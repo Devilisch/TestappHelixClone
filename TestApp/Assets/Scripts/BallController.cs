@@ -9,6 +9,8 @@ public class BallController : MonoBehaviour
     public GameObject respawn;
     private bool collision = false;
     private Rigidbody ball;
+    private float score = 0f;
+    private float lowestPosition = 12f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,11 +27,10 @@ public class BallController : MonoBehaviour
         if (obj.gameObject.tag == "Red block" ) {
             ball.transform.position = respawn.transform.position;
         }
-        /*
-        if (obj.tag == "Glass block" ) {
-            ball.AddForce( Vector2.up * 5000 );
-            Destroy(obj.gameObject);
-        }*/
+        if (obj.gameObject.tag == "Blue block" ) {
+            ball.AddForce( Vector3.up * jumpForce );
+            Destroy(obj.gameObject, 0.1f);
+        }
         if (obj.gameObject.tag == "Finish block" ) {
             ball.MovePosition( ball.position + Vector3.down * 5f);
         }
@@ -39,5 +40,4 @@ public class BallController : MonoBehaviour
     void OnCollisionExit( Collision obj ) {
         collision = false;
     }
-
 }
