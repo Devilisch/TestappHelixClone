@@ -18,7 +18,6 @@ public class BallController : MonoBehaviour
     void OnCollisionEnter( Collision obj ) {
         if (collision) return;
         if (obj.gameObject.tag == "Block" ) {
-            ball.velocity = Vector3.zero;
             ball.AddForce( Vector3.up * jumpForce );
         }
 /*
@@ -37,10 +36,4 @@ public class BallController : MonoBehaviour
         collision = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        ball.MovePosition( ball.position + Vector3.right * moveHorizontal * speed * Time.deltaTime );
-    }
 }
