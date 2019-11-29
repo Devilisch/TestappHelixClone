@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Block
+  - Finish block
+  - Red block
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class BallController : MonoBehaviour
 {
     public float speed = 10f;
     public float jumpForce = 250f;
+    public GameObject respawn;
     private bool collision = false;
     private Rigidbody ball;
 
@@ -20,15 +21,18 @@ public class BallController : MonoBehaviour
         if (obj.gameObject.tag == "Block" ) {
             ball.AddForce( Vector3.up * jumpForce );
         }
-/*
-        if (obj.tag == "Red block" ) {
+
+        if (obj.gameObject.tag == "Red block" ) {
             ball.transform.position = respawn.transform.position;
         }
-        
+        /*
         if (obj.tag == "Glass block" ) {
             ball.AddForce( Vector2.up * 5000 );
             Destroy(obj.gameObject);
         }*/
+        if (obj.gameObject.tag == "Finish block" ) {
+            ball.MovePosition( ball.position + Vector3.down * 5f);
+        }
         collision = true;
     }
 
