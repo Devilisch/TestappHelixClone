@@ -1,0 +1,7 @@
+- fix rotate bug (can't rotate more than 180 and -180 degrees)
+- update all old textures
+- add menu
+- add die menu
+- add finish menu
+- add next level menu
+- update levels

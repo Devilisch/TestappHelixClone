@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    public GameObject FocusOn;
+    public GameObject ball;
+    public GameObject respawn;
+    private float cameraPositionY;
 
     void Start() {
-        
+        cameraPositionY = ball.transform.position.y;
     }
 
     void Update() {
-        transform.position = new Vector3 (FocusOn.transform.position.x, FocusOn.transform.position.y + 3, FocusOn.transform.position.z - 3);
+        if ( ( cameraPositionY > ball.transform.position.y ) | ( respawn.transform.position.y == ball.transform.position.y ) )
+            cameraPositionY = ball.transform.position.y;
+
+        transform.position = new Vector3 (ball.transform.position.x, cameraPositionY + 3, ball.transform.position.z - 3);
     }
 }
