@@ -6,15 +6,11 @@ public class CameraMove : MonoBehaviour
 {
     public GameObject FocusOn;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         transform.position = new Vector3 (FocusOn.transform.position.x, FocusOn.transform.position.y + 3, FocusOn.transform.position.z - 3);
     }
 }
