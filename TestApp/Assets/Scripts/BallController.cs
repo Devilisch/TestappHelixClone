@@ -31,6 +31,8 @@ public class BallController : MonoBehaviour
                 ball.AddForce( Vector3.up * jumpForce );
                 Destroy(obj.gameObject, destroyTime);
                 break;
+            case "Black block":
+                break;
             case "Finish block":
                 ball.MovePosition( ball.position + Vector3.down * lvlDownForce); 
                 break;
