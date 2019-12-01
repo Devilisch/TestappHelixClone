@@ -25,7 +25,8 @@ public class BallController : MonoBehaviour
                 ball.AddForce( Vector3.up * jumpForce );
                 break;
             case "Red block":
-                ball.transform.position = respawn.transform.position;
+                //ball.transform.position = respawn.transform.position;
+                Application.LoadLevel("DeathMenuScene");
                 break;
             case "Blue block":
                 ball.AddForce( Vector3.up * jumpForce );

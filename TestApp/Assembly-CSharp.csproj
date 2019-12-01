@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallController.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\DeathMenuControl.cs" />
      <Compile Include="Assets\Scripts\MainController.cs" />
      <Compile Include="Assets\Scripts\MenuControl.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />

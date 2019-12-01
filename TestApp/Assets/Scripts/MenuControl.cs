@@ -28,6 +28,10 @@ public class MenuControl : MonoBehaviour
         Application.Quit();
     }
 
+    public void StartNewGame() {
+        Application.LoadLevel("Level1Scene");
+    }
+
     // Start is called before the first frame update
     void Start() {
         

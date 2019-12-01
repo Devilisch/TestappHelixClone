@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 82
+  controlID: 103
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 83
+  controlID: 104
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 84
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,19 +336,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Devilisch\_testapps\TestappHelixClone\TestApp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce280000
-    m_LastClickedID: 10446
+    m_SelectedIDs: ea290000
+    m_LastClickedID: 10730
     m_ExpandedIDs: 00000000882600004027000056280000802b0000822b0000842b0000862b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 18140100
       m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffff
+      m_ExpandedIDs: ceafffff4cb0ffff7ab0ffff9ec2ffff6ec6ffffbac7ffff02c8ffff60c8ffffcac9ffff0eccffff6cd6ffffa2d6ffffccd6fffffed6ffffc2d7fffface7ffffb4f0ffffcafaffff24fbffffd6fbffff24620000fa62000036cb00000acc0000a8f30000d4f30000821501006e1c0100721c0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -576,21 +576,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.055847403, y: 0.5117618, z: -0.03336252, w: 0.8566609}
+    m_Target: {x: 0.23169719, y: 0.037635498, z: -0.008966282, w: 0.9720183}
     speed: 2
-    m_Value: {x: 0.055847403, y: 0.5117618, z: -0.03336252, w: 0.8566609}
+    m_Value: {x: 0.23169719, y: 0.037635498, z: -0.008966282, w: 0.9720183}
   m_Size:
-    m_Target: 523.35406
+    m_Target: 700.75616
     speed: 2
-    m_Value: 523.35406
+    m_Value: 700.75616
   m_Ortho:
     m_Target: 1
     speed: 2
