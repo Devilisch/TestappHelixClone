@@ -6,6 +6,8 @@ public class BallController : MonoBehaviour
 {
 
     public GameObject respawn;
+    public GameObject nextLevelMenu;
+    public GameObject winMenu;
     private Rigidbody ball;
     private bool collision = false;
     public float jumpForce = 250f;
@@ -35,7 +37,11 @@ public class BallController : MonoBehaviour
             case "Black block":
                 break;
             case "Finish block":
+                nextLevelMenu.SetActive(true);
                 ball.MovePosition( ball.position + Vector3.down * lvlDownForce); 
+                break;
+            case "Win block":
+                winMenu.SetActive(true);
                 break;
         }
 

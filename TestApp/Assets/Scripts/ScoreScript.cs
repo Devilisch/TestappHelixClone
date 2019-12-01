@@ -8,6 +8,8 @@ public class ScoreScript : MonoBehaviour
 {
     public GameObject ball;
     public GameObject respawn;
+    public bool scoreInNextLevelMenu = false;
+    public bool scoreInWinMenu = false;
     private int score = 0;
     private float startPosition = 0f;
 
@@ -24,6 +26,8 @@ public class ScoreScript : MonoBehaviour
             score = 0;
         }
 
-        GetComponent<Text>().text = score.ToString();
+        if (scoreInNextLevelMenu) GetComponent<Text>().text = "You score: " + score.ToString() + "\nLet's go to the next level?";
+        else if (scoreInWinMenu) GetComponent<Text>().text = "You score: " + score.ToString() + "\nYou won!";
+        else GetComponent<Text>().text = "Score: " + score.ToString();
     }
 }

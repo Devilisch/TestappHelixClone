@@ -9,6 +9,7 @@ TagManager:
   - Red block
   - Blue block
   - Black block
+  - Win block
   layers:
   - Default
   - TransparentFX
