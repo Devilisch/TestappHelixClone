@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DeathMenuControl : MonoBehaviour
 {
+    public AudioClip death;
+
     public void ShowStartMenu() {
         Application.LoadLevel("MainMenuScene");
     }
@@ -15,7 +17,7 @@ public class DeathMenuControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<AudioSource>().PlayOneShot(death);
     }
 
     // Update is called once per frame

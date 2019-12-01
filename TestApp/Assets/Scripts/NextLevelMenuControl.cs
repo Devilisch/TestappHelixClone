@@ -5,12 +5,14 @@ using UnityEngine;
 public class NextLevelMenuControl : MonoBehaviour
 {
     public GameObject NextLevelMenu;
+    public AudioClip tap;
 
     public void ShowStartMenu() {
         Application.LoadLevel("MainMenuScene");
     }
 
     public void StartNextLevel() {
+        GetComponent<AudioSource>().PlayOneShot(tap);
         NextLevelMenu.SetActive(false);
     }
 
