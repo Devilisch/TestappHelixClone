@@ -7756,7 +7756,7 @@ GameObject:
   - component: {fileID: 673498819}
   m_Layer: 0
   m_Name: Block8
-  m_TagString: Block
+  m_TagString: Blue block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13294,7 +13294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328348465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -450.30716, y: -313.1, z: 0.42635605}
+  m_LocalPosition: {x: -450.30716, y: -320.3, z: 0.42635605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1512042181}
@@ -16087,7 +16087,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545222293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -450.30716, y: -290.64, z: 0.42635605}
+  m_LocalPosition: {x: -450.30716, y: -293.5, z: 0.42635605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 374487378}
